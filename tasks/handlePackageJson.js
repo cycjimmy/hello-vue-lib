@@ -19,10 +19,6 @@ if (jsonData.devDependencies) {
   delete jsonData.devDependencies;
 }
 
-if (jsonData.publishConfig) {
-  delete jsonData.publishConfig;
-}
-
 if (jsonData.config) {
   delete jsonData.config;
 }
