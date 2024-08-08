@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/cycjimmy/hello-vue-lib/compare/v1.0.0...v1.0.1) (2024-08-08)
+
+
+### Bug Fixes
+
+* for test ([10352b5](https://github.com/cycjimmy/hello-vue-lib/commit/10352b5b2243641881aab966c16bac3574154d1c))
+
 # 1.0.0 (2024-08-08)
 
 
