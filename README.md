@@ -46,3 +46,4 @@ This is a private vue lib template for automatic test, release and so on. [Demo]
 [license-image]: https://img.shields.io/npm/l/@cycjimmy/hello-vue-lib
 
 [github-pages-url]: https://cycjimmy.github.io/hello-vue-lib/
+
