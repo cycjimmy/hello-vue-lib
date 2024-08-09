@@ -8,6 +8,10 @@ copySync(
   resolve('.release', 'dist')
 )
 copySync(
+  resolve('types'),
+  resolve('.release', 'types')
+)
+copySync(
   resolve('README.md'),
   resolve('.release', 'README.md')
 )
