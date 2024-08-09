@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/cycjimmy/hello-vue-lib/compare/v1.2.0...v1.3.0) (2024-08-09)
+
+
+### Features
+
+* add types file ([1661f83](https://github.com/cycjimmy/hello-vue-lib/commit/1661f83e720f79727ac62b868a171293ee80c6e2))
+
 # [1.2.0](https://github.com/cycjimmy/hello-vue-lib/compare/v1.1.0...v1.2.0) (2024-08-09)
 
 
