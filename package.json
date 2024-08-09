@@ -1,6 +1,6 @@
 {
   "name": "@cycjimmy/hello-vue-lib",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "hello vue lib",
   "type": "module",
   "main": "./dist/hello-vue-lib.umd.js",

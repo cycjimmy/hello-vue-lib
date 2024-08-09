@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/cycjimmy/hello-vue-lib/compare/v1.1.0...v1.2.0) (2024-08-09)
+
+
+### Features
+
+* use ts ([0457def](https://github.com/cycjimmy/hello-vue-lib/commit/0457defe8a08fa9d034e3aaa1451902105f51cc3))
+
 # [1.1.0](https://github.com/cycjimmy/hello-vue-lib/compare/v1.0.3...v1.1.0) (2024-08-09)
 
 
