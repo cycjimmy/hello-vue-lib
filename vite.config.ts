@@ -14,7 +14,7 @@ export default defineConfig({
   },
   build: {
     lib: {
-      entry: resolve('src', 'index.js'),
+      entry: resolve('src', 'index.ts'),
       name: 'HelloVueLib',
       fileName: (format) => `hello-vue-lib.${format}.js`,
     },
