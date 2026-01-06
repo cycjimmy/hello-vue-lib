@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/cycjimmy/hello-vue-lib/compare/v1.3.0...v1.3.1) (2026-01-06)
+
+
+### Bug Fixes
+
+* **ci:** use OIDC ([09f160b](https://github.com/cycjimmy/hello-vue-lib/commit/09f160bc1f9239adf57e5c48fed9aa1900a9a659))
+
 # [1.3.0](https://github.com/cycjimmy/hello-vue-lib/compare/v1.2.0...v1.3.0) (2024-08-09)
 
 
