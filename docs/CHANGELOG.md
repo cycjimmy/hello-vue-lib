@@ -1,3 +1,28 @@
+# [2.0.0](https://github.com/cycjimmy/hello-vue-lib/compare/v1.3.1...v2.0.0) (2026-11-17)
+
+
+* feat!: rebuild the package as an ESM-only Vue component library ([9fce566](https://github.com/cycjimmy/hello-vue-lib/commit/9fce5663fd7b7e3c267ad65773bbe24e6cfc832a))
+
+
+### BREAKING CHANGES
+
+* the package no longer ships CommonJS or UMD bundles.
+`exports` only exposes an `import` entry (`dist/index.js`), and `main` /
+`module` point at the same ESM file.
+* styles are emitted to `dist/index.css` and must be imported
+explicitly: `import '@cycjimmy/hello-vue-lib/style.css'`.
+* type declarations are generated into `dist/` (`types` now
+points to `dist/index.d.ts`); the hand-written `types/index.d.ts` placeholder
+is removed.
+* `vue` is now a peer dependency (`^3.5.0`) instead of a
+regular dependency, because the generated declarations rely on the
+`DefineComponent` type shape introduced in Vue 3.5.
+* Node.js `^22.22.2 || ^24.15.0 || >=26.0.0` is required to
+build, test and lint the project, because the task scripts run through Node's
+native TypeScript stripping and the lint/test toolchain needs the same range.
+* tooling moved to Vite 8, Vitest 5, TypeScript 6, ESLint 10
+with @antfu/eslint-config (Prettier removed) and stylelint for SCSS.
+
 ## [1.3.1](https://github.com/cycjimmy/hello-vue-lib/compare/v1.3.0...v1.3.1) (2026-01-06)
 
 
