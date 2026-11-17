@@ -6,23 +6,7 @@
   <title>Hello Vue Lib</title>
 </head>
 <body>
-<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 <div id="app"></div>
-
-<script type="module">
-  const { createApp, ref } = Vue
-  import HelloWorld from '@/components/HelloWorld.vue'
-
-  createApp({
-    components: { HelloWorld },
-    template: '<HelloWorld :msg />',
-    setup() {
-      const msg = ref('Hello world!')
-      return {
-        msg
-      }
-    }
-  }).mount('#app')
-</script>
+<script type="module" src="/demo/main.ts"></script>
 </body>
 </html>

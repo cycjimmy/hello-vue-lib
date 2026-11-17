@@ -1,3 +1,1 @@
-import HelloWorld from '@/components/HelloWorld.vue';
-
-export default HelloWorld;
+export { default, default as HelloWorld } from './components/HelloWorld.vue'
