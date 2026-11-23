@@ -57,6 +57,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # The dry-run job below is the only one that loads release.config.js, and
+      # it never runs on a pull request. A dependency bump that breaks that
+      # file's import path would therefore pass review and only fail on main
+      # after the merge. This ref is read-only, so merely loading it is safe.
+      - name: Load the release config
+        run: node -e "import('./release.config.js').then(() => console.log('release.config.js loaded'))"
+
       - name: Type check
         run: npm run type-check
 
